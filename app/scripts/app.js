@@ -393,6 +393,111 @@ createApp({
                         
                     ]
                 },
+                {
+                    id: 16,
+                    question: "Quand les premiers dinosaures seraient-ils apparus sur Terre ?",
+                    image: "./assets/images/questions/16.jpg",
+                    bonne: "Il y a 230 millions d’années",
+                    options: [
+                        {
+                            numero: 1,
+                            reponse: "Il y a 5 millions d’années",
+                        },
+                        {
+                            numero: 2,
+                            reponse: "Il y a 65 millions d’années",
+                        },
+                        {
+                            numero: 3,
+                            reponse: "Il y a 230 millions d’années",
+                        },
+                        
+                    ]
+                },
+                {
+                    id: 17,
+                    question: "Laquelle de ces périodes géologiques est la plus récente ?",
+                    image: "./assets/images/questions/17.jpg",
+                    bonne: "Le Crétacé",
+                    options: [
+                        {
+                            numero: 1,
+                            reponse: "Le Trias",
+                        },
+                        {
+                            numero: 2,
+                            reponse: "Le Crétacé",
+                        },
+                        {
+                            numero: 3,
+                            reponse: "Le Jurassique",
+                        },
+                        
+                    ]
+                },
+                {
+                    id: 18,
+                    question: "À quelle date remonte la découverte du premier fossile de dinosaure entier ?",
+                    image: "./assets/images/questions/18.jpg",
+                    bonne: "1815",
+                    options: [
+                        {
+                            numero: 1,
+                            reponse: "1920",
+                        },
+                        {
+                            numero: 2,
+                            reponse: "1815",
+                        },
+                        {
+                            numero: 3,
+                            reponse: "1609",
+                        },
+                        
+                    ]
+                },
+                {
+                    id: 19,
+                    question: "Combien de T-Rex ont été découverts dans le monde depuis le premier en 1902 ?",
+                    image: "./assets/images/questions/19.jpg",
+                    bonne: "Une cinquantaine",
+                    options: [
+                        {
+                            numero: 1,
+                            reponse: "Une dizaine",
+                        },
+                        {
+                            numero: 2,
+                            reponse: "Une cinquantaine",
+                        },
+                        {
+                            numero: 3,
+                            reponse: "Une centaine",
+                        },
+                        
+                    ]
+                },
+                {
+                    id: 20,
+                    question: "Quelle était la taille des cornes du tricératops ?",
+                    image: "./assets/images/questions/20.jpg",
+                    bonne: "1.5m",
+                    options: [
+                        {
+                            numero: 1,
+                            reponse: "0.5m",
+                        },
+                        {
+                            numero: 2,
+                            reponse: "1.5m",
+                        },
+                        {
+                            numero: 3,
+                            reponse: "2m",
+                        },
+                        
+                    ]
+                },
             ],
             messageResultats: [
                 {
@@ -1329,6 +1434,7 @@ createApp({
         afficherImmitation() {
             this.resetJeux();
             this.immitationCommence = true;
+            
         },
 
 

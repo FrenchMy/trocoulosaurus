@@ -999,7 +999,8 @@ button:disabled {
 #carte #modalInfo .zone .informations .icones article h4 {
   font-size: 1.4rem;
 }
-#carte #modalInfo .zone .informations .icones .icones-cri, #carte #modalInfo .zone .informations .icones .icones-dessin {
+#carte #modalInfo .zone .informations .icones .icones-cri,
+#carte #modalInfo .zone .informations .icones .icones-dessin {
   flex-basis: 20%;
   background-color: #e9e9e9;
   box-shadow: 5px 5px 8px #808080;
@@ -1009,10 +1010,12 @@ button:disabled {
   border: none;
   cursor: pointer;
 }
-#carte #modalInfo .zone .informations .icones .icones-cri h4, #carte #modalInfo .zone .informations .icones .icones-dessin h4 {
+#carte #modalInfo .zone .informations .icones .icones-cri h4,
+#carte #modalInfo .zone .informations .icones .icones-dessin h4 {
   font-size: 1.4rem;
 }
-#carte #modalInfo .zone .informations .icones .icones-cri.desactiver, #carte #modalInfo .zone .informations .icones .icones-dessin.desactiver {
+#carte #modalInfo .zone .informations .icones .icones-cri.desactiver,
+#carte #modalInfo .zone .informations .icones .icones-dessin.desactiver {
   opacity: 0.3;
   pointer-events: none;
 }
@@ -1785,50 +1788,9 @@ button:disabled {
 #mini-jeux .container-bouton .immitation_box .btn-fermer i:hover {
   text-shadow: 5px 5px 5px #637a87;
 }
-#mini-jeux .container-bouton .immitation_box .p5Canvas {
-  width: 1920px;
-  height: 900px;
-}
-#mini-jeux .container-bouton .immitation_box .pterodactyle {
-  width: 20%;
-  position: absolute;
-  top: 13vh;
-  left: 57vw;
-  display: none;
-}
-#mini-jeux .container-bouton .immitation_box .brontosaure {
-  width: 20%;
-  position: absolute;
-  top: 7vh;
-  left: 55vw;
-  display: none;
-}
-#mini-jeux .container-bouton .immitation_box .trex {
-  width: 20%;
-  position: absolute;
-  top: 13vh;
-  left: 57vw;
-  display: none;
-}
-#mini-jeux .container-bouton .immitation_box .hydrorion {
-  width: 20%;
-  position: absolute;
-  top: 13vh;
-  left: 57vw;
-  display: none;
-}
-#mini-jeux .container-bouton .immitation_box .p-visible {
-  display: block;
-}
-#mini-jeux .container-bouton .immitation_box .p-invisible {
-  display: none;
-}
-#mini-jeux .container-bouton .immitation_box .box {
-  width: 640px;
-  height: 480px;
-  background-color: cornflowerblue;
-  position: absolute;
-  left: 50vw;
+#mini-jeux .container-bouton .immitation_box .immit {
+  width: 100%;
+  height: 100%;
 }
 
 #bestiaire {
@@ -2032,7 +1994,8 @@ button:disabled {
 #bestiaire #modalInfo .zone .informations .icones article h4 {
   font-size: 1.4rem;
 }
-#bestiaire #modalInfo .zone .informations .icones .icones-cri, #bestiaire #modalInfo .zone .informations .icones .icones-dessin {
+#bestiaire #modalInfo .zone .informations .icones .icones-cri,
+#bestiaire #modalInfo .zone .informations .icones .icones-dessin {
   flex-basis: 20%;
   background-color: #e9e9e9;
   box-shadow: 5px 5px 8px #808080;
@@ -2042,10 +2005,12 @@ button:disabled {
   border: none;
   cursor: pointer;
 }
-#bestiaire #modalInfo .zone .informations .icones .icones-cri h4, #bestiaire #modalInfo .zone .informations .icones .icones-dessin h4 {
+#bestiaire #modalInfo .zone .informations .icones .icones-cri h4,
+#bestiaire #modalInfo .zone .informations .icones .icones-dessin h4 {
   font-size: 1.4rem;
 }
-#bestiaire #modalInfo .zone .informations .icones .icones-cri.desactiver, #bestiaire #modalInfo .zone .informations .icones .icones-dessin.desactiver {
+#bestiaire #modalInfo .zone .informations .icones .icones-cri.desactiver,
+#bestiaire #modalInfo .zone .informations .icones .icones-dessin.desactiver {
   opacity: 0.3;
   pointer-events: none;
 }
