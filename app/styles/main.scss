@@ -136,7 +136,7 @@ $transition: all 300ms ease;
 }
 
 button:disabled {
-    opacity: 0.3;
+    opacity: 0.2;
     pointer-events: none;
 }
 
@@ -312,6 +312,7 @@ button:disabled {
             letter-spacing: 2px;
             position: relative;
             color: #ffffff;
+            font-weight: 100;
 
             &::before {
                 content: '';
@@ -404,6 +405,24 @@ button:disabled {
                         padding: 20px 0;
                         text-align: justify;
                     }
+                }
+            }
+        }
+        .reseaux{
+            width: 100%;
+            .insta{
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                i{
+                    text-align: center;
+                    font-size: 8rem;
+                    padding: 2px;
+                    margin: 0 auto;
+                    background: linear-gradient(45deg, $couleur-trois 0%, $couleur-secondaire 50%, $couleur-principale 100%);
+                    color: transparent;
+                    background-clip: text;
+                    -webkit-text-stroke: 3px $couleur-sombre;
                 }
             }
         }

@@ -137,7 +137,7 @@
 }
 
 button:disabled {
-  opacity: 0.3;
+  opacity: 0.2;
   pointer-events: none;
 }
 
@@ -295,6 +295,7 @@ button:disabled {
   letter-spacing: 2px;
   position: relative;
   color: #ffffff;
+  font-weight: 100;
 }
 #site #equipe .sketchy::before {
   content: "";
@@ -369,6 +370,25 @@ button:disabled {
   color: #fff;
   padding: 20px 0;
   text-align: justify;
+}
+#site #equipe .reseaux {
+  width: 100%;
+}
+#site #equipe .reseaux .insta {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#site #equipe .reseaux .insta i {
+  text-align: center;
+  font-size: 8rem;
+  padding: 2px;
+  margin: 0 auto;
+  background: linear-gradient(45deg, #ffae0b 0%, #ff800d 50%, #ff4e10 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-stroke: 3px #111111;
 }
 #site footer {
   color: #ff800d;

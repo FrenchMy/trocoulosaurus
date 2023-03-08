@@ -165,80 +165,74 @@ function draw() {
   const brontosaurusText = document.querySelector(".brontosaurus-text");
   const trexText = document.querySelector(".trex-text");
   const hydrorionText = document.querySelector(".hydrorion-text");
+  const loader = document.querySelector(".ring");
 
 
   if (poseLabel == "P") {
-
+    if (!pterodactyle.classList.contains('p-visible')) {
+      loader.style.display = "block";
+    }
+  
     setTimeout( () => {
       pterodactyle.classList.add('p-visible');
       pterodactyleText.classList.add('p-visible');
+      loader.style.display = "none";
     } 
-    , 1000);
+    , 2000);
 
   } else {
-
-    setTimeout( () => {
-      pterodactyle.classList.remove('p-visible');
-      pterodactyleText.classList.remove('p-visible');
-    } 
-    , 1000);
-
+    pterodactyle.classList.remove('p-visible');
+    pterodactyleText.classList.remove('p-visible');
   }
 
   if (poseLabel == "B") {
-
+    if (!brontosaure.classList.contains('p-visible')) {
+      loader.style.display = "block";
+    }
     setTimeout( () => {
       brontosaure.classList.add('p-visible');
       brontosaurusText.classList.add('p-visible');
+      loader.style.display = "none";
     } 
-    , 1000);
+    , 2000);
 
   } else {
-
-    setTimeout( () => {
-      brontosaure.classList.remove('p-visible');
-      brontosaurusText.classList.remove('p-visible');
-    } 
-    , 1000);
-
+    brontosaure.classList.remove('p-visible');
+    brontosaurusText.classList.remove('p-visible');
   }
 
 
   if (poseLabel == "T") {
-
+    if (!trex.classList.contains('p-visible')) {
+      loader.style.display = "block";
+    }
     setTimeout( () => {
       trex.classList.add('p-visible');
       trexText.classList.add('p-visible');
+      loader.style.display = "none";
     } 
-    , 1000);
+    , 2000);
 
   } else {
-
-    setTimeout( () => {
-      trex.classList.remove('p-visible');
-      trexText.classList.remove('p-visible');
-    } 
-    , 1000);
-
+    trex.classList.remove('p-visible');
+    trexText.classList.remove('p-visible');
   }
 
 
   if (poseLabel == "H") {
-
+    if (!hydrorion.classList.contains('p-visible')) {
+      loader.style.display = "block";
+    }
     setTimeout( () => {
       hydrorion.classList.add('p-visible');
       hydrorionText.classList.add('p-visible');
+      loader.style.display = "none";
     } 
-    , 1000);
+    , 2000);
 
   } else {
-
-    setTimeout( () => {
       hydrorion.classList.remove('p-visible');
       hydrorionText.classList.remove('p-visible');
-    } 
-    , 1000);
-
   }
 
 
