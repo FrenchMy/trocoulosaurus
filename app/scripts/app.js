@@ -5,8 +5,8 @@ createApp({
     data() {
         return {
             // AFFICHAGE DE SECTION - SHOW BOOLEAN
-            pageAnimation: false,
-            pageCarte: true,
+            pageAnimation: true,
+            pageCarte: false,
             pageJeux: false,
             pageBestiaire: false,
             pageImmitation: false,
@@ -1472,11 +1472,11 @@ createApp({
         this.genererQuestionnaire();
 
         // Timer de 6sec pour le temps d'animation avant de changer de page
-        // if (this.pageAnimation = true) {
-        //     setTimeout(() => {
-        //         location.reload();
-        // }, 10000);
-        // }
+        if (this.pageAnimation = true) {
+            setTimeout(() => {
+                afficherPageCarte();
+            }, 6000);
+        }
         
         
     }
